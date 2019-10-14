@@ -124,3 +124,17 @@ def merge_sort_in_place(arr, l, r):
 def timsort( arr ):
 
     return arr
+
+
+# cache = {}
+
+# def fib(n):
+#     if n < 2:
+#         return n
+#     elif n in cache:
+#         return cache[n]
+#     else:
+#         cache[n] = fib(n-1) + fib(n-2)
+#     return cache[n]
+
+

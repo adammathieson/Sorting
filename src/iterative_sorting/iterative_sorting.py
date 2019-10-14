@@ -26,7 +26,7 @@ def bubble_sort( arr ):
     count = len(arr)
     # check_count = len(arr)
     while count > 0:
-        for i in range(0, len(arr) - 1):
+        for i in range(len(arr) - 1):
             if arr[i] <= arr[i+1]:
                 count -= 1
                 # print(count)
